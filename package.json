@@ -2,7 +2,7 @@
   "name": "google-sheets-express",
   "version": "1.0.1",
   "description": "A simple express server to interact with google sheets.",
-  "main": "app.js",
+  "main": "src/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nickproz/google-spreadsheet-express.git"
