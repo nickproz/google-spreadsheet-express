@@ -1,7 +1,14 @@
-# google-spreadsheet-express
-A simple API for interacting with a google spreadsheet. This express server allows you to interact with a spreadsheet
-in an unauthenticated manor (NOTE: anyone with the URL to the server can send requests and modify the spreadsheet).
-`app.js` contains a rate limiter that you can configure to help mitigate DDoS attacks.
+# google-spreadsheet-express-routes
+A simple API for interacting with a google spreadsheet. Import these routes into an existing node express server to
+expose them. Below is an example:
+
+```javascript 1.8
+// Initialize our Express app
+let app = express();
+
+// Initialize our routes on the app
+require('google-spreadsheet-express-routes')(app);
+```
 
 ## Create necessary (free) Google accounts:
 * Create a Google Cloud Platform Project [here](https://console.cloud.google.com/home/dashboard)
@@ -22,10 +29,6 @@ account above. To do this, just click `Share` from the spreadsheet and add the `
 (see how to find that above). Ensure you only share permissions that you want the service account to have (only view
 permissions if you only plan on reading from the spreadsheet and don't want anyone to be able to manipulate it, or
 view + edit permissions if you want to be able to manipulate the spreadsheet).
-    
-## Usage:
-* `npm install` : Install necessary node modules
-* `npm start` : Start server
 
 ## TODO:  
 * Add endpoints: create/modify/delete sheet, get/update cell, delete row
