@@ -5,4 +5,4 @@ node_modules
 .idea
 
 # ENV sensitive properties
-.env
+#.env
