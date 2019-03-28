@@ -1,23 +1,15 @@
 {
-  "name": "google-sheets-express",
-  "version": "1.0.1",
-  "description": "A simple express server to interact with google sheets.",
-  "main": "app.js",
+  "name": "google-sheets-express-routes",
+  "version": "1.0.0",
+  "description": "A simple module of routes to add to an Express server to interact with Google Spreadsheets.",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/nickproz/google-spreadsheet-express.git"
   },
-  "scripts": {
-    "start": "node src/app.js"
-  },
   "author": "nick.prozorovsky@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
-    "dotenv": "^7.0.0",
-    "express": "^4.15.2",
-    "express-rate-limit": "^2.6.0",
     "google-spreadsheet": "^2.0.3"
   }
 }

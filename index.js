@@ -1,4 +1,4 @@
-const googleSheets = require('./index');
+const googleSheets = require('./src/google-sheets');
 
 // Route parameter variables
 const PARAMETER_SHEET_INDEX = 'sheetIndex';
