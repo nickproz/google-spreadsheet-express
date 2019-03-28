@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple express server to interact with google sheets.",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickproz/google-spreadsheet-express.git"
+  },
   "scripts": {
     "start": "node src/app.js"
   },
