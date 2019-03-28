@@ -1,0 +1,8 @@
+# Node modules
+node_modules
+
+# IntelliJ Files
+.idea
+
+# ENV sensitive properties
+.env
